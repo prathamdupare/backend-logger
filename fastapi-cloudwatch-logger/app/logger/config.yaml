@@ -1,0 +1,7 @@
+aws:
+  region: "us-east-1" # Change to your AWS region
+  log_group: "fastapi-app-logs" # Change to your preferred log group name
+
+app_logger:
+  name: "fastapi-app"
+  level: 10 # DEBUG level
