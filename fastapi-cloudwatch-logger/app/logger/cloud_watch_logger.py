@@ -26,6 +26,7 @@ class CloudWatchLogger:
         if self.logger.hasHandlers():
             self.logger.handlers.clear()
 
+    
     def add_cw_handler(self):
         cw_handler = watchtower.CloudWatchLogHandler(
             log_group=self.log_group,
